@@ -1,0 +1,5 @@
+js.executeScript("windows.scrollTo(0,document.body.scrollHeight)");  scroll complete page
+js.executeScript("arguments[0].scrollIntoview();" Element)                 scroll upto particular height
+-------------------------------------------------------------------------
+js.executeScript("windows.scrollTo(0,document.body.scrollHeight)");
+js.executeScript("arguments[0].scrollIntoView();", element);
